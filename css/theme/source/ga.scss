@@ -28,7 +28,22 @@ $headingLetterSpacing: -0.03em;
 $headingTextTransform: none;
 $selectionBackgroundColor: #e7ad52;
 
-
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+.dark-bg {
+    background-color: rgba(0,0,0,.5);
+}
+
+.reveal {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        font-weight: 900;
+        font-style: italic;
+    }
+}
+
